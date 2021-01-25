@@ -11,11 +11,11 @@
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
       "street":"和平東路二段",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Taipei",
+      "state":"Taipei",
+      "zip": "106"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "https://wenlianghuang.github.io/Matt-Resume/",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
@@ -49,15 +49,15 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"National Taiwan University",
+        "degree":"Masters in Physics",
+        "graduated":"January 2021",
+        "description":"Deep learning of the data from high energy laboratory with HGCAL"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
+        "school":"National Taiwain University",
+        "degree":"Undergraduate in Physics",
+        "graduated":"June 2016",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
