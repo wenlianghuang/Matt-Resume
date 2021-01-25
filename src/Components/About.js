@@ -12,6 +12,7 @@ class About extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
+      var cellphone = this.props.data.cellphone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
     }
@@ -35,6 +36,7 @@ class About extends Component {
 						         {city} {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
+                     <span>{cellphone}</span>
                      <span>{email}</span>
 					   </p>
                </div>
