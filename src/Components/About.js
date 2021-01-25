@@ -14,6 +14,7 @@ class About extends Component {
       var phone= this.props.data.phone;
       var cellphone = this.props.data.cellphone;
       var email = this.props.data.email;
+      var cell_phone = this.props.data.cell_phone;
       var resumeDownload = this.props.data.resumedownload;
     }
 
@@ -38,6 +39,7 @@ class About extends Component {
 						   <span>{phone}</span><br />
                      <span>{cellphone}</span>
                      <span>{email}</span>
+                     <span>{cell_phone}</span>
 					   </p>
                </div>
                <div className="columns download">
