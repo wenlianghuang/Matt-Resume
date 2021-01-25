@@ -1,9 +1,9 @@
 {
   "main": {
     "name":"Wen-Liang, Huang Matt Resume",
-    "description":"I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "description":"I am a web development,data science, and system enginer.This is a static website which I wrote by reactjs. If anybody is interesting to my resume website, please send the email in the footer",
     "image":"photo.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"There is a detailed CV, you can download the .pdf and check it",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "wenliangmatt@gmail.com",
     "phone": "(02)2325-5139",
@@ -17,7 +17,7 @@
       "zip": "106"
     },
     "website": "https://wenlianghuang.github.io/Matt-Resume/",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"CVResume.pdf",
     "social":[
       {
         "name":"facebook",
