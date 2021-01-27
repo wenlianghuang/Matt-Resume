@@ -1,7 +1,7 @@
 {
   "name": "personalportfolio",
   "version": "0.1.0",
-  "homepage": "https://wenlianghuang.github.io/Matt-Resume/",
+  /*"homepage": "https://wenlianghuang.github.io/Matt-Resume/",*/
   "private": true,
   "dependencies": {
     "anix": "^0.3.3",
