@@ -18,6 +18,7 @@ class About extends Component {
       //var resumeDownload = this.props.data.resumedownload;
       var resumeDownload = "images/" + this.props.data.resumeDownload;
       resumeDownload = "https://master.d30eeqjx15uo9v.amplifyapp.com/" + resumeDownload;
+      console.log('resume: ',resumeDownload);
       var testimage = "https://master.d30eeqjx15uo9v.amplifyapp.com/" + profilepic;
     }
 
