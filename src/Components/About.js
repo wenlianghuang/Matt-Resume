@@ -15,7 +15,6 @@ class About extends Component {
       var cellphone = this.props.data.cellphone;
       var email = this.props.data.email;
       var cell_phone = this.props.data.cell_phone;
-      //var resumeDownload = this.props.data.resumedownload;
       var resumeDownload = "images/" + this.props.data.resumedownload;
       resumeDownload = "https://master.d30eeqjx15uo9v.amplifyapp.com/" + resumeDownload;
       console.log('resume: ',resumeDownload);
@@ -48,7 +47,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={testimage} className="button" download><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
