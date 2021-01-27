@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "anix": "^0.3.3",
+    "axios": "^0.21.1",
     "jquery": "^3.5.1",
     "particles-bg": "^2.3.12",
     "react": "^16.2.0",
