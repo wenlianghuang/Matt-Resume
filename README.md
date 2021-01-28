@@ -1,6 +1,6 @@
 # React Nice Resume     
 
-### DEMO is [here](https://master.d30eeqjx15uo9v.amplifyapp.com/)
+### DEMO is [here](https://master.d1vrfej3pgx1tg.amplifyapp.com/)
 
 ![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img.jpg?raw=true)
 
