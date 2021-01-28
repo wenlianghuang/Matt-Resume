@@ -7,7 +7,7 @@ import Mutation from './resolvers/Mutation.js';
 import {createWriteStream} from 'fs';
 const app = express();
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 const server = new GraphQLServer({
     typeDefs: "./schema.graphql",
