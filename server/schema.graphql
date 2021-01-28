@@ -1,0 +1,9 @@
+scalar Upload
+
+type Query {
+    hello: String!
+}
+
+type Mutation {
+    uploadFile(file: Upload!):Boolean
+}

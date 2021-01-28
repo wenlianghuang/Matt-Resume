@@ -8,6 +8,10 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+import Dropzone from 'react-dropzone';
+//import {UPLOADFILE} from './graphql';
+import gql from 'graphql-tag';
+import {Mutation} from 'react-apollo';
 
 class App extends Component {
 
@@ -55,5 +59,22 @@ class App extends Component {
     );
   }
 }
+//暫時沒辦法upload with Graphql
+/*const uploadFileMutation = gql`
+  mutation($file: Upload!) {
+    uploadFile(file: $file)
+  }
+`;
+function App(){
+  return(
+  <Mutation mutation={uploadFileMutation}>
+    {mutate => (
+      <Dropzone onDrop={([file]) => mutate({ variables: { file } })}>
+        <p>Try dropping some files here, or click to select files to upload.</p>
+      </Dropzone>
+    )}
+  </Mutation>
+  )
+}*/
 
 export default App;
