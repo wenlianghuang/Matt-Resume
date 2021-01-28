@@ -21,7 +21,9 @@ const dbOptions = {
     useNewUrlParser: true,
     useUnifiedTopology: true
 };
-
+server.express.use(express.static(buildPath));
+server.express.get("*",(req,res)=>{
+    res.sendFile(path.join(buildPath,'index.html'))})
 server.start({port: port},()=>{
     console.log(`The server is port ${port}`);
 })
