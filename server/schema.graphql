@@ -1,9 +1,12 @@
 scalar Upload
 
+type File {
+    url:String!
+}
 type Query {
     hello: String!
 }
 
 type Mutation {
-    uploadFile(file: Upload!):Boolean
+    uploadFile(file: Upload!):File!
 }

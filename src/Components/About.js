@@ -16,9 +16,9 @@ class About extends Component {
       var email = this.props.data.email;
       var cell_phone = this.props.data.cell_phone;
       var resumeDownload = "images/" + this.props.data.resumedownload;
-      resumeDownload = "https://master.d30eeqjx15uo9v.amplifyapp.com/" + resumeDownload;
+      resumeDownload = "https://master.d1vrfej3pgx1tg.amplifyapp.com/" + resumeDownload;
       console.log('resume: ',resumeDownload);
-      var testimage = "https://master.d30eeqjx15uo9v.amplifyapp.com/" + profilepic;
+      var testimage = "https://master.d1vrfej3pgx1tg.amplifyapp.com/" + profilepic;
     }
 
     return (

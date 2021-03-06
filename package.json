@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/client": "^3.3.7",
     "anix": "^0.3.3",
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-client": "^2.6.10",
@@ -19,6 +20,10 @@
     "react-dropzone": "^4.2.9",
     "react-ga": "^2.3.5",
     "react-scripts": "^4.0.1"
+  },
+  "resolutions": {
+    "**/**/fs-capacitor": "^6.2.0",
+    "**/graphql-upload": "^11.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

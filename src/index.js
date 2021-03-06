@@ -9,11 +9,17 @@ import {InMemoryCache} from 'apollo-cache-inmemory';
 import {ApolloProvider} from 'react-apollo';
 
 
-const link = createUploadLink({ uri: 'https://master.d30eeqjx15uo9v.amplifyapp.com/' });
+/*const link = createUploadLink({ uri: 'http://localhost:4000' });
 const client = new ApolloClient({
     link,
     cache: new InMemoryCache(),
-});
+});*/
+const client = new ApolloClient({
+    link: createUploadLink({
+        uri: 'http://localhost:4000/'
+    }),
+    cache: new InMemoryCache(),
+})
 
 ReactDOM.render(
     <ApolloProvider client={client}>
