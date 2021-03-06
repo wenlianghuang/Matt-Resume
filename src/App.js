@@ -17,7 +17,7 @@ import {Mutation} from 'react-apollo';
 
 import {useMutation} from '@apollo/react-hooks';
 import {UPLOADFILE} from './graphql';
-/*class App extends Component {
+class App extends Component {
 
   constructor(props){
     super(props);
@@ -62,7 +62,7 @@ import {UPLOADFILE} from './graphql';
       </div>
     );
   }
-}*/
+}
 
 //暫時沒辦法upload with Graphql
 
@@ -74,7 +74,7 @@ import {UPLOADFILE} from './graphql';
 
 
 //基本上在各別的server 和 client都沒問題，問題可能就是出現由client stream to server的過程中出錯QQ
-function App(){
+//function App(){
   /*return(
   <Mutation mutation={UPLOADFILE}>
     {mutate => (
@@ -85,6 +85,7 @@ function App(){
   </Mutation>
   )*/
   
+  /** 20210306 
   const [uploadFile] = useMutation(UPLOADFILE,{
     onCompleted: data => console.log(data) 
   });
@@ -99,8 +100,8 @@ function App(){
       <h1>Upload File</h1>
       <input type="file" onChange={handleFileChange}/>
     </div>
-  )
+  )*/
   
-}
+//}
 
 export default App;
