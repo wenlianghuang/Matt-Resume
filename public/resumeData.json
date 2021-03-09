@@ -64,16 +64,22 @@
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"中研院物理研究所",
+        "title":"研究助理",
+        "years":"2015/07-2016/2",
+        "description":"量子電腦元件設計"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"台灣大學物理系高能組",
+        "title":"研究助理",
+        "years":"2015/01-2016/07",
+        "description":"CERN CMS 資料分析"
+      },
+      {
+        "company":"宜蘭縣大同鄉寒溪國小",
+        "title":"替代役教育專長",
+        "years":"2016/07-2017/07"
+        
       }
     ],
     "skills":[
@@ -101,6 +107,10 @@
       {
         "name":"CSS",
         "level":"65%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"50%"
       }
       
     ]
